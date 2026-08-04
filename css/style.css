@@ -27,3 +27,32 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 2rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+header h1 {
+    font-size: 1.4rem;
+    color: var(--color-text);
+    white-space: nowrap;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.75rem;
+}
+
+nav a {
+    color: var(--color-text);
+    font-weight:500;
+}
+
+nav a:hover {
+    color: var(--color-accent);
+}
